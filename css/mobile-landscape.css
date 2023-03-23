@@ -1,0 +1,42 @@
+.wrapper {
+  width: 95%;
+}
+
+.mainMenu {
+  font-size: 0.6em;
+  padding: 0px;
+}
+
+.menuButton {
+  width: 12em;
+}
+
+.portfolio__block {
+  width: 25%;
+}
+
+.myApproach__textBlock {
+  margin-left: 10%;
+}
+
+.sketches__block {
+  width: 25%;
+}
+
+.contacts__textBlock {
+  width: 300px;
+}
+
+.projectExamples__photo {
+  left: 0px;
+  width: 100%;
+}
+
+.projectExamples__photo > div {
+  height: 375px;
+}
+
+.projectExamples__bottomText {
+  margin-left: 0px;
+}
+/*# sourceMappingURL=mobile-landscape.css.map */

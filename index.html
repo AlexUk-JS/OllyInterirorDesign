@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=1">
+    <link rel="stylesheet" media="screen and (orientation: portrait)" href="css/mobile-portrait.css">
+    <link rel="stylesheet" media="screen and (max-device-width:1090px) and (orientation: landscape)" href="css/mobile-landscape.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inder&family=Inter:wght@100;200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400&display=swap"
+        rel="stylesheet">
+        <script src="js/lang.js"></script>
+        <script defer src="js/changeLanguage.js"></script>
+    <script defer src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <title class="lng-unit">Olga Lya Interior</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logoPart">
+            <img src="/img/logo.png" alt="logo">
+        </div>
+
+        <div class="mainMenu">
+            <div class="mainMenu__menu">
+                <button class="menuButton button__choose lng-portfolio" data-chapter="portfolio">Портфолио</button>
+                <button class="menuButton button__choose lng-myapproach" data-chapter="myApproach">Обо мне</button>
+                <button class="menuButton button__choose lng-sketches" data-chapter="sketches">Скетчи</button>
+                <button class="menuButton button__choose lng-contacts" data-chapter="contacts">Контакты</button>
+            </div>
+            <div class="mainMenu__language">
+                
+                <select class="change-lang">
+                    <option value="ru">Рус</option>
+                    <option value="en">Eng</option>
+                    <option value="it">Ita</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="mainPart">
+
+            <div class="textBlock" data-chapter="portfolio">
+                <div class="portfolio">
+                    <div class="portfolio__block" data-project="firstPE">
+                        <img src="/img/portfolio/portfolio-1.jpg" alt="portfolio 1 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-1">R6</p>
+                        <p class="lng-portfolio-1">R6</p>
+                    </div>
+                    <div class="portfolio__block" data-project="secondPE">
+                        <img src="/img/portfolio/portfolio-2.jpg" alt="portfolio 2 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-2">Modular house</p>
+                        <p class="lng-portfolio-2">Modular house</p>
+                    </div>
+                    <div class="portfolio__block" data-project="thirdPE">
+                        <img src="/img/portfolio/portfolio-3.jpg" alt="portfolio 3 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-3">Bathroom</p>
+                        <p class="lng-portfolio-3">Bathroom</p>
+                    </div>
+                    <div class="portfolio__block" data-project="fourthPE">
+                        <img src="/img/portfolio/portfolio-4.jpg" alt="portfolio 4 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-4">DR</p>
+                        <p class="lng-portfolio-4">DR</p>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <div class="portfolio__block" data-project="fifthPE">
+                        <img src="/img/portfolio/portfolio-5.jpg" alt="portfolio 5 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-5">Exhibition Space</p>
+                        <p class="lng-portfolio-5">Exhibition Space</p>
+                    </div>
+                    <div class="portfolio__block" data-project="sixthPE">
+                        <img src="/img/portfolio/portfolio-6.jpg" alt="portfolio 6 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-6">BR</p>
+                        <p class="lng-portfolio-6">BR</p>
+                    </div>
+                    <div class="portfolio__block" data-project="seventhPE">
+                        <img src="/img/portfolio/portfolio-7.jpg" alt="portfolio 7 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-7">Collection "OLLY"</p>
+                        <p class="lng-portfolio-7">Collection "OLLY"</p>
+                    </div>
+                    <div class="portfolio__block" data-project="eighthPE">
+                        <img src="/img/portfolio/portfolio-8.jpg" alt="portfolio 8 image">
+                        <p class="portfolio__block__hoverText lng-portfolio-8">S20</p>
+                        <p class="lng-portfolio-8">S20</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textBlock hidden" data-chapter="myApproach">
+                <div class="myApproach">
+                    <div class="myApproach__img">
+                        <img src="/img/myApproachFoto.jpg" alt="myApproach image">
+                    </div>
+
+                    <div class="myApproach__textBlock">
+                        <p class="lng-myapproach-1">Меня зовут Ольга. И я создаю дизайн интерьеров.</p>
+                        <p class="lng-myapproach-2">На протяжении последних нескольких лет я выстраиваю концепции 
+                            дизайна для самых разнообразных пространств. Моя цель - 
+                            формировать систему баланса, функциональности и красоты, в 
+                            контексте запросов и пожеланий клиента.
+                        </p>
+                        <p class="lng-myapproach-3">Мой путь в сфере дизайна начался более 5 лет назад. Будучи по образованию геммологом, 
+                            в определенный момент, я осознала, что в первую очередь в минералах меня привлекает 
+                            их эстетическая красота и сбалансированность. Каждый из них создан под влияниям 
+                            конкретных природных процессов, различных для каждого минерала. Какие-то из этих 
+                            процессов создают графит. Другие - алмазы. И каждый минерал имеет свое применение - 
+                            свое конкретное место, где идеален он и только он. Графит - в промышленном производстве, 
+                            алмазы - в ювелирной промышленности.
+                        </p>
+                        <p class="lng-myapproach-4">Эту концепцию я постаралась перенести в дизайн. Каждый элемент интерьера создан для
+                             какой-то конкретной цели и идеален для какого-то конкретного пространства. 
+                             Собранные вместе, они образуют цельную, красивую и функциональную систему для жизни, 
+                             работы и отдыха.
+                        </p>
+                        <p class="lng-myapproach-5">И моя цель - создавать такие пространства.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textBlock photoHead hidden" data-chapter="sketches">
+                <div class="sketches">
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-01.jpg" alt="sketches 1 image">
+                        <p class="sketches__block__hoverText lng-sketches-1">Гостиная</p>
+                        <p class=" lng-sketches-1">Гостиная</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-02.jpg" alt="sketches 2 image">
+                        <p class="sketches__block__hoverText lng-sketches-2">Витрина</p>
+                        <p class=" lng-sketches-2">Витрина</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-03.jpg" alt="sketches 3 image">
+                        <p class="sketches__block__hoverText lng-sketches-3">Виньетка</p>
+                        <p class=" lng-sketches-3">Виньетка</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-04.jpg" alt="sketches 4 image">
+                        <p class="sketches__block__hoverText lng-sketches-4">Балкон</p>
+                        <p class=" lng-sketches-4">Балкон</p>
+                    </div>
+                </div>
+                <div class="sketches">
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-05.jpg" alt="sketches 5 image">
+                        <p class="sketches__block__hoverText lng-sketches-5">Горы</p>
+                        <p class=" lng-sketches-5">Горы</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-06.jpg" alt="sketches 6 image">
+                        <p class="sketches__block__hoverText lng-sketches-6">Кресло</p>
+                        <p class=" lng-sketches-6">Кресло</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-07.jpg" alt="sketches 7 image">
+                        <p class="sketches__block__hoverText lng-sketches-7">Стул</p>
+                        <p class=" lng-sketches-7">Стул</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-08.jpg" alt="sketches 8 image">
+                        <p class="sketches__block__hoverText lng-sketches-8">Диван</p>
+                        <p class=" lng-sketches-8">Диван</p>
+                    </div>
+                </div>
+                <div class="sketches">
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-09.jpg" alt="sketches 9 image">
+                        <p class="sketches__block__hoverText lng-sketches-9">Кот</p>
+                        <p class=" lng-sketches-9">Кот</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-10.jpg" alt="sketches 10 image">
+                        <p class="sketches__block__hoverText lng-sketches-10">Город</p>
+                        <p class=" lng-sketches-10">Город</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-11.jpg" alt="sketches 11 image">
+                        <p class="sketches__block__hoverText lng-sketches-11">Камин</p>
+                        <p class=" lng-sketches-11">Камин</p>
+                    </div>
+                    <div class="sketches__block">
+                        <img src="/img/sketches/sketches-12.jpg" alt="sketches 12 image">
+                        <p class="sketches__block__hoverText lng-sketches-12">Кафе</p>
+                        <p class=" lng-sketches-12">Кафе</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textBlock hidden" data-chapter="contacts">
+                <div class="contacts__textBlock">
+                    <h4 class="lng-contactsHeader">Контакты</h4>
+                    <p > <span class="lng-contactsText">По общим вопросам, пожалуйста, напишите нам по электронной почте:</span>   <a
+                            href="design@interior-olly.com">design@interior-olly.com</a></p>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead firstPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-1/project-1-01.jpg" alt="1-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-1/project-1-02.jpg" alt="1-02">
+                        <img src="/img/project-1/project-1-03.jpg" alt="1-03">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-1/project-1-04.jpg" alt="1-02">
+                        <img src="/img/project-1/project-1-05.jpg" alt="1-03">
+                    </div>
+                    <div class="uno">
+                        <img src="/img/project-1/project-1-06.jpg" alt="1-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-1/project-1-07.jpg" alt="1-02">
+                        <img src="/img/project-1/project-1-08.jpg" alt="1-03">
+                    </div>
+                    <div class="uno">
+                        <img src="/img/project-1/project-1-09.jpg" alt="1-01">
+                    </div>
+                    <div class="uno">
+                        <img src="/img/project-1/project-1-10.jpg" alt="1-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-1/project-1-11.jpg" alt="1-02">
+                        <img src="/img/project-1/project-1-12.jpg" alt="1-03">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-1/project-1-13.jpg" alt="1-02">
+                        <img src="/img/project-1/project-1-14.jpg" alt="1-03">
+                    </div>
+                    <div class="uno">
+                        <img src="/img/project-1/project-1-15.jpg" alt="1-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-1/project-1-16.jpg" alt="1-02">
+                        <img src="/img/project-1/project-1-17.jpg" alt="1-03">
+                    </div>
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-1-1">Частный дом R6</div>
+                    <div class="projectExamples__bottomText__second lng-project-1-2">Каменск-уральский, Россия</div>
+                </div>
+
+            </div>
+
+            <div class="projectExamples photoHead secondPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-2/project-2-01.jpg" alt="2-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-2/project-2-02.jpg" alt="2-02">
+                        <img src="/img/project-2/project-2-03.jpg" alt="2-03">
+                    </div>
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-2-1">Modular house</div>
+                    <div class="projectExamples__bottomText__second lng-project-2-2">Московская область, Россия</div>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead thirdPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-3/project-3-01.jpg" alt="3-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-3/project-3-02.jpg" alt="3-02">
+                        <img src="/img/project-3/project-3-03.jpg" alt="3-03">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-3/project-3-04.jpg" alt="3-04">
+                        <img src="/img/project-3/project-3-05.jpg" alt="3-05">
+                    </div>
+                    <div class="uno">
+                        <img src="/img/project-3/project-3-06.jpg" alt="3-06">
+                    </div>
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-3-1">Bathroom</div>
+                    <div class="projectExamples__bottomText__second lng-project-3-2">Свердловская область, Россия</div>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead fourthPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-4/project-4-01.jpg" alt="4-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-4/project-4-02.jpg" alt="4-02">
+                        <img src="/img/project-4/project-4-03.jpg" alt="4-03">
+                    </div>
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-4-1">DR</div>
+                    <div class="projectExamples__bottomText__second lng-project-4-2">Московская область, Россия</div>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead fifthPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-5/project-5-01.jpg" alt="5-01">
+                    </div>
+                </div>
+
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-5-1">Exhibition Space</div>
+                    <div class="projectExamples__bottomText__second lng-project-5-2">Концепция проекта</div>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead sixthPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-6/project-6-01.jpg" alt="6-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-6/project-6-02.jpg" alt="6-02">
+                        <img src="/img/project-6/project-6-03.jpg" alt="6-03">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-6/project-6-04.jpg" alt="6-02">
+                        <img src="/img/project-6/project-6-05.jpg" alt="6-03">
+                    </div>
+                    <div class="uno">
+                        <img src="/img/project-6/project-6-06.jpg" alt="6-01">
+                    </div>
+
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-6-1">Bedroom</div>
+                    <div class="projectExamples__bottomText__second lng-project-6-2">Концепция</div>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead seventhPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-7/project-7-01.jpg" alt="7-01">
+                    </div>
+                    <div class="duo">
+                        <img src="/img/project-7/project-7-02.jpg" alt="7-02">
+                        <img src="/img/project-7/project-7-03.jpg" alt="7-03">
+                    </div>
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-7-1">Collection "OLLY"</div>
+                    <div class="projectExamples__bottomText__second lng-project-7-2">Коллекция мебели для дома, концепция</div>
+                </div>
+            </div>
+
+            <div class="projectExamples photoHead eighthPE hidden">
+                <div class="projectExamples__photo">
+                    <div class="uno">
+                        <img src="/img/project-8/project-8-01.jpeg" alt="8-01">
+                    </div>
+                </div>
+                <div class="projectExamples__bottomText">
+                    <div class="projectExamples__bottomText__first lng-project-8-1">S20</div>
+                    <div class="projectExamples__bottomText__second lng-project-8-2">Каменск-Уральский, Россия</div>
+                </div>
+            </div>
+            <p></p>
+            <div class="fullscreenCW hidden">
+                <button type="button" class="btn-close" aria-label="Close"></button>
+                <div id="carouselExampleControls" class="fullscreen carousel slide" data-bs-ride="carousel" data-bs-interval="9999999">
+
+                    <div class="carousel-inner">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer__line"> </div>
+                <img src="/img/logo-footer.png" alt="logo-footer">
+                <div class="footer__text lng-footer">2022 olga lya interiors</div>
+            </footer>
+        </div>
+</body>
+
+</html>
